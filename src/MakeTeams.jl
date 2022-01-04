@@ -11,8 +11,8 @@ Divide players into even teams
 
 # Examples
 ```jldoctest
-julia> using MakeTeams;
-       import Random:MersenneTwister;
+julia> using MakeTeams
+       import Random:MersenneTwister
        rng=MersenneTwister(1234);
        maketeams(rng,["Sue","Bob","Julia","Ralph","Cindy","Tim"],3)
 Team 1
